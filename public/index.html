@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AI Text to Image Generator</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h1>AI Image Generator</h1>
+    <p>
+      Welcome to the AI Image Generator App! This app uses AI to generate images
+      based on your text description. Simply enter your text into the text area
+      below and click the "Generate Image" button to see the magic.
+    </p>
+    <p>Enter your text below and click "Generate Image"</p>
+    <div class="container">
+      <div class="text-box">
+        <textarea
+          id="text-to-image"
+          name="text-to-image"
+          placeholder="Enter your text here..."
+        ></textarea>
+        <button id="generate-button" class="generate-button">
+          <span class="generate-button-text">Generate Image</span>
+        </button>
+      </div>
+      <div class="image-box">
+        <img id="generated-image" alt="Generated Image" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
